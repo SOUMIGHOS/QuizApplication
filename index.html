@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section class="main">
+        <div class="container mt-5">
+            <div class="col">
+                <h3 id="questionBox">
+                    1) Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis?
+                </h3>
+            </div>
+
+            <form id="quizForm">
+                <fieldset class="border p-3">
+                    <legend>Select an Answer:</legend>
+
+                    <div class="form-check">
+                        <input name="option" type="radio" id="first" value="a" class="form-check-input" required>
+                        <label for="first" class="form-check-label">Testing 1</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input name="option" type="radio" id="second" value="b" class="form-check-input" required>
+                        <label for="second" class="form-check-label">Testing 2</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input name="option" type="radio" id="third" value="c" class="form-check-input" required>
+                        <label for="third" class="form-check-label">Testing 3</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input name="option" type="radio" id="fourth" value="d" class="form-check-input" required>
+                        <label for="fourth" class="form-check-label">Testing 4</label>
+                    </div>
+
+                    <button type="submit" id="submit" class="btn btn-primary mt-3">Submit</button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
